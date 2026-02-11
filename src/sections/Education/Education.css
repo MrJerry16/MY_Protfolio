@@ -1,0 +1,95 @@
+.edu-section {
+    background-color: var(--bg-primary);
+}
+
+.edu-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.edu-card {
+    display: flex;
+    gap: 2rem;
+    padding: 2.5rem;
+    align-items: flex-start;
+}
+
+.edu-icon-box {
+    width: 60px;
+    height: 60px;
+    background-color: var(--accent-blue-light);
+    color: var(--accent-blue);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.edu-content {
+    flex-grow: 1;
+}
+
+.edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.edu-degree {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.edu-year {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--accent-blue);
+    background-color: var(--accent-blue-light);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+}
+
+.edu-inst {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.edu-score {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 1rem;
+    background-color: var(--accent-green-light);
+    color: var(--accent-green);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.edu-desc {
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .edu-card {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    .edu-degree {
+        font-size: 1.2rem;
+    }
+}
