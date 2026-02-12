@@ -13,6 +13,12 @@ const Certificates = () => {
             date: 'Nov 2025',
             pdf: '/certificates/java_certificate.pdf', // Path to your PDF in public folder
 
+        },
+        {
+            title: 'Introduction to Data Analysis using Microsoft Excel',
+            issuer: 'Coursera',
+            date: ' Feb 2026',
+            pdf: '/certificates/excel_certificate.pdf', // Path to your PDF in public folder
         }
     ]
 
